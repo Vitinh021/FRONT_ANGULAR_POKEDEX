@@ -1,27 +1,15 @@
-# FrontAngular
+# Sobre a aplicação
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.7.
+## O projeto trata de uma aplicação que vai consumir uma API própria onde o usuário pode listar, filtrar, criar, editar e remover pokemons.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Passo a passo para baixar e rodar o projeto com Git
+1. Crie uma pasta na sua área de trabalho
+2. Utilizando do Git Bash ou Git GUI clone o repositório na pasta 
+3. Segue o link do repositório para facilitar sua vida ☺ -> [https://github.com/Vitinh021/FRONT_ANGULAR_POKEDEX.git]()
+4. Após baixado, abra o projeto em sua IDE favorita e execute o seguinte comando no terminal para baixar as dependências -> `npm install`
+5. Por fim, basta rodar o projeto usando o comando -> `ng serve`
+   
+## Passo a passo para baixar e rodar o projeto caso baixe em formato zip
+1. Após baixado, descompacte o arquivo
+2. Em seguida abra o projeto em sua IDE favorita e execute o seguinte comando no terminal para baixar as dependências -> `npm install`
+3. Por fim, basta rodar o projeto usando o comando -> `ng serve`
