@@ -1,0 +1,84 @@
+@import '../../../config-scss/rem-calc.scss';
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    width: 70%;
+    margin-top: rem-calc(30);
+    background-color: var(--branco);
+    border-radius:  rem-calc(15);
+  
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      width: 90%;
+      margin-top: 15px;
+  
+      div {
+        margin: 5px;
+  
+        label {
+          font-weight: bold;
+        }
+  
+        input[type="text"]{
+            width: 100%;
+            font-weight: 400; 
+            border-radius: rem-calc(10);
+            padding: 5px;
+            margin: 5px 0;
+            background-color: var(--cinza);
+        }
+
+        textarea {
+          resize: none;
+          outline: none;
+          border: none;
+          width: 100%;
+          font-weight: 400; 
+          border-radius: rem-calc(20) ;
+          padding: 10px;
+          margin: 5px 0;
+          background-color: var(--cinza);
+        }
+  
+        select {
+          width: 25%;
+          padding: 5px;
+          margin: 5px 0;
+        }
+      }
+
+
+      .type{
+        display: flex;
+        flex-direction: column;
+      }
+  
+      .action {
+        display: flex;
+        margin-top: 5px;
+        justify-content: space-between;
+      }
+    }
+  }
+  
+  select {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  
+
+  .img{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+  

@@ -1,0 +1,38 @@
+<poke-header></poke-header>
+
+<main>
+  <form (ngSubmit)="salvar()">
+    <div class="img">
+      <img src="assets/pokemons/{{name.toLowerCase()}}.png" alt="" title="Imagem do pokemon">
+    </div>
+    <div>
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" placeholder="Nome..." [(ngModel)]="name">
+    </div>
+  
+    <div>
+      <label for="description">Descrição:</label>
+      <textarea name="description" rows="8"  placeholder="Descrição..." [(ngModel)]="description">Descrição:</textarea>
+    </div>
+  
+    <div class="type">
+      <label for="type">Type:</label>
+      <select  placeholder="type" id="type" name="type" [(ngModel)]="type">
+        <option value="0">Fogo</option>
+        <option value="1">Água</option>
+        <option value="2">Terra</option>
+        <option value="3">Ar</option>
+      </select>
+    </div>
+
+    <div class="action">
+      <a [routerLink]="['']" class="">
+        <img src="assets/back.png" alt="Voltar" title="Voltar">
+      </a>
+
+      <button style="margin-right: 10px;" type="submit">
+        <img src="assets/add.png" alt="Voltar" title="Salvar">
+      </button>
+    </div>
+  </form>
+</main>
