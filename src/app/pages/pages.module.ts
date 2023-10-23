@@ -8,13 +8,11 @@ import { FormsModule } from '@angular/forms';
 
 //pages
 import { HomeComponent } from './home/home.component';
-import { DetailsComponent } from './details/details.component';
 import { CreateComponent } from './create/create.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
-    DetailsComponent,
     CreateComponent
   ],
   imports: [
